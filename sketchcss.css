@@ -1,0 +1,29 @@
+html{
+	background-color: #C2D6D6;
+	}
+
+#wrapper {width: 100%; display: block; position: relative; }
+
+#header {font-size: 48px; text-align: center; font-weight: bold; font-family: Arial, sans-serif}
+
+#subText {text-align: center}
+
+#grid {margin-top:10px; padding-top: 20px}
+
+.center {display: block; position: relative; margin-left: auto; margin-right: auto}
+
+#buttonContainer {width: 350px; padding-bottom: 5px}
+
+.settings {width: 60px; margin-left: 5px; margin-right: 5px; text-align: center; float:left; background-color: #669999; color:white; border-radius: 10px; border: #3D5C5C 1px solid;}
+
+.rows {width: 960px; display: block; position: relative; margin-left: auto; margin-right: auto; margin-top: 2px; border: 0px; padding: 0px;}
+
+.cubes {
+	background-color: #669999;
+	position: relative;
+	border:  1px solid;
+	opacity: 1;
+	margin:0;
+	padding:0;
+	float: left;
+	}

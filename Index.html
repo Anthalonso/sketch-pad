@@ -3,12 +3,28 @@
 <html>
 <head>
 	<title> Sketch Pad </title>
-	<link type="text/stylesheet" rel="stylesheet" href="sketchcss.css"
-	<script type="text/javascript" src="sketchjs.js"></script>
+	<link type="text/stylesheet" rel="stylesheet" href="sketchcss.css" />
+	<script type="text/javascript" src="cssreset.css"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="sketchjs.js"></script>
+	
 </head>
 
 <body>
+
+<div id="wrapper">
+	<h1 id="header"> Sketch Pad </h1>
+	<h3 id="subText"> Hover to change the squares. Click a square to pause the effect. Use the buttons to try different settings.</h3>
+	<div id="buttonContainer" class="center">
+		<button class="settings" id="plain" name="style" value="plain">Reset</button>
+		<button class="settings" id="random" name="style" value="random">Random</button>
+		<button class="settings" id="fade" name="style" value="fade">Fade</button>
+		<button class="settings" id="comet" name="style" value="comet">Comet</button>
+		<button class="settings" id="clear" name="style" value="clear">Clear</button>
+	</div>
+	<div id="grid"></div>
+
+</div>
 
 </body>
 
